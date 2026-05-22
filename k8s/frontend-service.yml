@@ -1,0 +1,8 @@
+apiVersion: apps/v1
+kind: Service
+metadata:
+  name: nginx-deployment
+  namespace: three-tier
+spec:
+  containers:
+  
