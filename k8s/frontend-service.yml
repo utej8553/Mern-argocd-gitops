@@ -4,7 +4,7 @@ metadata:
   name: frontend-service
   namespace: three-tier
 spec:
-  type: ClusterIp
+  type: ClusterIP
   selector:
     app: frontend
   ports:
